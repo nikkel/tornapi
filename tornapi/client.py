@@ -4,7 +4,7 @@ from typing import Dict, Any
 
 import requests
 
-from .endpoints import UserEndpoint
+from .endpoints import UserEndpoint, TornEndpoint
 from .exceptions import TornAPIError
 
 
@@ -50,3 +50,7 @@ class TornAPI:
     @property
     def user(self) -> UserEndpoint:
         return UserEndpoint(self)
+
+    @property
+    def torn(self) -> TornEndpoint:
+        return TornEndpoint(self)
