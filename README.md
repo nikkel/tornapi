@@ -42,15 +42,15 @@ print(user_data)
 icons_data = api.user.icons()
 print(icons_data)
 
+# Fetch your profile
+profile_data = api.user.profile()
+print(profile_data)
+
 # Fetch another user's profile by user ID
 profile_data = api.user.profile(user_id=123456)
 print(profile_data)
 
-# Fetch city data
-city_data = api.city()
-print(city_data)
-
-# Fetch faction data
-faction_data = api.faction.get_faction(1234)
-print(faction_data)
+# Fetch stock data
+stock_data = api.torn.stocks()
+print(stock_data)
 ```

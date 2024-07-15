@@ -1,5 +1,68 @@
 # Changelog
 
+## Version 0.2.0 - Torn Endpoint Release
+
+### Torn Endpoint
+- Added the `TornEndpoint` class to handle torn-related API calls.
+  - Implemented methods for each torn selection endpoint
+    - `bank`
+    - `cards`
+    - `chainreport`
+    - `cityshops`
+    - `companies`
+    - `competition`
+    - `dirtybombs`
+    - `education`
+    - `factiontree`
+    - `getCards`
+    - `getDirtyBombs`
+    - `gyms`
+    - `honors`
+    - `itemdetails`
+    - `items`
+    - `itemstats`
+    - `logcategories`
+    - `logtypes`
+    - `medals`
+    - `organisedcrimes`
+    - `pawnshop`
+    - `pokertables`
+    - `properties`
+    - `rackets`
+    - `raidreport`
+    - `raids`
+    - `rankedwarreport`
+    - `rankedwars`
+    - `rockpaperscissors`
+    - `searchforcash`
+    - `shoplifting`
+    - `stats`
+    - `stocks`
+    - `territory`
+    - `territorynames`
+    - `territorywarreport`
+    - `territorywars`
+    - `timestamp`
+
+### Added
+  - The territory method can now accept a single string or a list of strings representing territories.
+  - The chainreport method can now accept a parameter to specify the chain ID.
+  - The companies method can now accept an optional parameter to specify the company ID.
+  - The education method can now accept an optional parameter to specify the education ID.
+  - The gyms method can now accept an optional parameter to specify the gym ID.
+  - The honors method can now accept an optional parameter to specify the honor ID.
+  - The itemdetails method can now accept a parameter to specify the unique item ID.
+  - The items method can now accept an optional parameter to specify the item ID.
+  - The medals method can now accept an optional parameter to specify the medal ID.
+  - The organisedcrimes method can now accept an optional parameter to specify the organized crime ID.
+  - The properties method can now accept an optional parameter to specify the property ID.
+  - The raidreport method can now accept a parameter to specify the raid ID.
+  - The rankedwarreport method can now accept a parameter to specify the ranked war ID.
+  - The stocks method can now accept an optional parameter to specify the stock ID.
+
+### Fixes
+- Updated the url in setup.py to the repo link
+
 ## Version 0.1.0 - Initial Release
 
 ### Initial Setup
