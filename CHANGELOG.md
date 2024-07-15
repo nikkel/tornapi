@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 0.2.0 - Torn Endpoint Release
+
+### Fixes
+- Updated the url in setup.py to the repo link
+
 ## Version 0.1.0 - Initial Release
 
 ### Initial Setup
