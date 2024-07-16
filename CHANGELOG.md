@@ -1,5 +1,43 @@
 # Changelog
 
+## Version 0.2.1 - Hotfixes
+
+### Hotfixes
+- UserEndpoint
+  - The ammo method user_id parameter has been removed.
+  - The attack method user_id parameter has been removed.
+  - The attacksfull method user_id parameter has been removed.
+  - The bars method user_id parameter has been removed.
+  - The battlestats method user_id parameter has been removed.
+  - The cooldowns method user_id parameter has been removed.
+  - The education method user_id parameter has been removed.
+  - The equipment method user_id parameter has been removed.
+  - The event method user_id parameter has been removed.
+  - The gym method user_id parameter has been removed.
+  - The hof method user_id parameter has been removed.
+  - The honors method user_id parameter has been removed.
+  - The inventory method user_id parameter has been removed. (Method mark as deprecated)
+  - The jobpoints method user_id parameter has been removed.
+  - The log method user_id parameter has been removed.
+  - The merits method user_id parameter has been removed.
+  - The messages method user_id parameter has been removed.
+  - The missions method user_id parameter has been removed.
+  - The money method user_id parameter has been removed.
+  - The networth method user_id parameter has been removed.
+  - The newevents method user_id parameter has been removed.
+  - The newmessages method user_id parameter has been removed.
+  - The notifications method user_id parameter has been removed.
+  - The perks method user_id parameter has been removed.
+  - The refills method user_id parameter has been removed.
+  - The reports method user_id parameter has been removed.
+  - The revives method user_id parameter has been removed.
+  - The revivesfull method user_id parameter has been removed.
+  - The skills method user_id parameter has been removed.
+  - The stocks method user_id parameter has been removed.
+  - The travel method user_id parameter has been removed.
+  - The weaponexp method user_id parameter has been removed.
+  - The workstats method user_id parameter has been removed.
+
 ## Version 0.2.0 - Torn Endpoint Release
 
 ### Torn Endpoint
